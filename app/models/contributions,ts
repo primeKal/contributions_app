@@ -1,0 +1,11 @@
+export class Contribution {
+    constructor(name, project, createdDate){
+        this.createdDate = createdDate;
+        this.project = project;
+        this.name = name;
+    }
+
+    name : string;
+    project: string;
+    createdDate: string;
+} 
